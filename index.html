@@ -3,34 +3,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock 🕰</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
-      <select id="">
-        <option value="">Select a city..</option>
+      <h1>World Clock 🕒</h1>
+      <select id="select" class="select">
+        <option value="">Choose city</option>
         <option value="London">London</option>
         <option value="Los Angeles">Los Angeles</option>
       </select>
       <div class="city">
-        <h2>Los Angeles</h2>
-        <div class="date">August 15th 2024</div>
+        <div>
+          <h2>Los Angeles</h2>
+          <div class="date">August 15th 2024</div>
+        </div>
         <div class="time">1:48:15AM</div>
       </div>
+
+      <footer>
+        <p class="footer">
+          This project was coded by
+          <a href="https://github.com/diananov11" target="_blank"
+            >Diana Novita</a
+          >
+          and
+          <a
+            href="https://github.com/diananov11/weather-application"
+            target="_blank"
+            >open-sourced on GitHub</a
+          >
+        </p>
+      </footer>
     </div>
-    <footer>
-      <p class="footer">
-        This project was coded with ❤ by
-        <a href="https://github.com/diananov11" target="_blank">Diana Novita</a
-        >, is
-        <a
-          href="https://github.com/diananov11/weather-application"
-          target="_blank"
-          >open-sourced on GitHub</a
-        >
-      </p>
-    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>

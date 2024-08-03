@@ -24,7 +24,7 @@ h2 {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
-.city {
+.cities {
   display: flex;
   justify-content: space-between;
   padding: 10px;

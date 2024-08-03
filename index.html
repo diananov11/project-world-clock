@@ -16,17 +16,36 @@
       <h1>World Clock 🕒</h1>
       <select id="select" class="select">
         <option value="">Choose city</option>
-        <option value="London">London</option>
-        <option value="Los Angeles">Los Angeles</option>
+        <option value="current">My current location</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Asia/Bangkok">Bangkok</option>
+        <option value="America/New_York">New York</option>
+        <option value="America/Buenos_Aires">Buenos Aires</option>
       </select>
-      <div class="city">
-        <div>
-          <h2>Palembang</h2>
-          <div class="date">August 15th 2024</div>
+      <div id="clock">
+        <div class="cities">
+          <div>
+            <h2 class="city" id="london">London</h2>
+            <div class="date" id="london-date">August 15th 2024</div>
+          </div>
+          <div class="time" id="london-time">1:48:15 AM</div>
         </div>
-        <div class="time">1:48:15AM</div>
+        <div class="cities">
+          <div>
+            <h2 class="city" id="paris">Paris</h2>
+            <div class="date" id="paris-date">August 15th 2024</div>
+          </div>
+          <div class="time" id="paris-time">1:48:15AM</div>
+        </div>
+        <div class="cities">
+          <div>
+            <h2 class="city" id="tokyo">Tokyo</h2>
+            <div class="date" id="tokyo-date">August 15th 2024</div>
+          </div>
+          <div class="time" id="tokyo-time">1:48:15AM</div>
+        </div>
       </div>
-
       <footer>
         <p class="footer">
           This project was coded by

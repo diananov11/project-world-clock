@@ -40,6 +40,10 @@ function changeClock(event) {
 
   let clock = document.querySelector("#clock");
 
+  if (event.target.value === "current") {
+    city = moment.tz.guess();
+  }
+
   clock.innerHTML = `
           <div class="cities">
           <div>
@@ -49,7 +53,7 @@ function changeClock(event) {
           <div class="time">${time}</div>
         </div>
         <br/>
-        <a href="/" class="back">Back to home</a>
+        <a href="/" class="back">Back to home 👈</a>
   `;
 }
 let selectCity = document.querySelector("#select-city");

@@ -6,7 +6,8 @@ body {
 }
 
 h1,
-footer {
+footer,
+a {
   text-align: center;
 }
 
@@ -41,7 +42,7 @@ h2 {
   opacity: 0.7;
 }
 
-.select {
+.select-city {
   width: 100%;
   padding: 10px;
   font-size: 16px;
